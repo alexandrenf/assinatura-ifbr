@@ -7,10 +7,10 @@ function SignatureEditor() {
   const [year, setYear] = useState('2021/22');
   const [phone, setPhone] = useState('11 99999-9999');
 
-  const logoUrl = "https://www.ifmsabrazil.org/images/logoemail.png";
-  const fbIconUrl = "https://www.ifmsabrazil.org/images/icofb.png";
-  const instaIconUrl = "https://www.ifmsabrazil.org/images/icoinsta.png";
-  const twitterIconUrl = "https://www.ifmsabrazil.org/images/icotwitter.png";
+  const logoUrl = "https://i.ibb.co/DQwF246/logoemail2.png";
+  const fbIconUrl = "https://i.ibb.co/54sBsnL/icofb2.png";
+  const instaIconUrl = "https://i.ibb.co/JvjBb1m/icoinsta2.png";
+  const twitterIconUrl = "https://i.ibb.co/xq5DYpY/icotiktok2.png";
 
   return (
     <div className="signature-editor">
@@ -74,8 +74,8 @@ function SignatureEditor() {
                       <a target="_blank" href="https://www.instagram.com/ifmsabrazil/" className="icone-inline">
                         <img width="16" height="16" src={instaIconUrl} alt="Instagram" style={{ width: '16px', height: '16px', marginRight: '3px' }} />
                       </a>
-                      <a target="_blank" href="https://twitter.com/ifmsabrazil" className="icone-inline">
-                        <img width="18" height="16" src={twitterIconUrl} alt="Twitter" style={{ width: '19px', height: '16px', marginRight: '5px' }} />
+                      <a target="_blank" href="https://tiktok.com/@ifmsabrazil" className="icone-inline">
+                        <img width="18" height="16" src={twitterIconUrl} alt="Twitter" style={{ width: '16px', height: '16px', marginRight: '5px' }} />
                       </a>
                     </p>
                   </td>
